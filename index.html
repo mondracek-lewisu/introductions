@@ -14,17 +14,25 @@
             overflow: hidden;
         }
         .main-info {
-            background: #333;
-            color: #fff;
+            background: #3d5a80;
+            color: #e0fbfc;
             padding: 20px;
         }
         .main-info h1 {
             margin: 0;
         }
-        .hobbies, .lewis, .course, .job, .fun-fact {
-            background: #e7e7e7;
+        .hobbies, .lewis, .course, .job, .fun-fact, .contact {
+            background: #c5dbe8;
+            color: #293241;
             padding: 15px;
             margin-bottom: 10px;
+        }
+        .profile-image {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            border: 3px solid #293241;
+            margin: 5px;
         }
     </style>
 </head>
@@ -35,15 +43,29 @@
             <h1>Preferred Name: Matt</h1>
         </header>
 
+        <section style="text-align: center;">
+            <img class="profile-image" src="images/me-800-by-800.jpg" alt="Matt Ondracek in Colorado">
+        </section>
+        
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <p><b>Email:</b> <a href="mailto:matthewjondracek@lewisu.edu">matthewjondracek@lewisu.edu</a></p>
+            <p><b>Discord:</b> irlvoid</p>
+        </section>
+
         <section class="lewis">
-			<h2>Year at Lewis: Junior</h2>
-			<h2>Lewis major/minor/concentrations: Major: Computer Science; Minor: Computer Engineering</h2>
-			<h2>Reasons for pursuing this degree: I have always had an affinity for technology, and after taking a few computer science classes in high school, I decided I wanted to pursue this degree. My enjoyment of math and science pushed me to minor in Computer Engineering.</h2>
+            <h2>Introduction</h2>
+            <p><b>About Me:</b> I am Matt Ondracek, and I am a commuter at Lewis University. I came to Lewis after graduating high school from Providence Catholic High School in 2024. I have one brother and my family has always lived in Illinois.</p>
+            <p><b>My Academics:</b> I am currently a junior at Lewis University, pursuing a degree in Computer Science with a minor in Computer Engineering. I chose to go down this path as I have always had an affinity for technology, and, after taking a few computer science classes in high school, I decided I wanted to pursue this degree. My enjoyment of math and science pushed me to minor in Computer Engineering.</p>
         </section>
 
 		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>I am taking this course because it is required for my major and provides experience working with a team as well as working with HTML and CSS for web development.</p>
+            <h2>What I Hope to Learn in this Course</h2>
+            <ul style="list-style-type:square;">
+                <li>How Software Development Works in a Corporate Environment</li>
+                <li>Gain Experience Working with a Team for Software Development</li>
+                <li>Improve Skills in HTML and CSS for Web Development</li>
+            </ul>
         </section>
 
 		<section class="job">
@@ -52,13 +74,23 @@
         </section>		
 
         <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>Some of my hobbies include watching Formula One, gaming, and playing board games with my friends.</p>
+            <h2>My Favorite Hobbies/Activities</h2>
+            <ul style="list-style-type:square;">
+                <li>Racing (Go Karts)</li>
+                <li>Gaming</li>
+                <li>Watching Formula One</li>
+                <li>Playing Board Games with Friends</li>
+                <li> <a href="https://kartcircuitautobahn.com/" target="_blank">My Favorite Karting Track</a></li>
+            </ul>
         </section>
 
         <section class="fun-fact">
             <h2>Fun Fact</h2>
-            <p>I have topped the leaderboards at every karting track I've been to.</p>
+            <p>I have topped the leaderboards at every karting track I&rsquo;ve been to.</p>
+        </section>
+
+        <section>
+            <p>Last Updated on 06/09/2026</p>
         </section>
     </div>
 </body>
